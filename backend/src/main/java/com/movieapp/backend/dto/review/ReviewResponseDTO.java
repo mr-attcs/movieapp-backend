@@ -1,4 +1,4 @@
-package com.movieapp.backend.dto;
+package com.movieapp.backend.dto.review;
 
 import lombok.Builder;
 import lombok.Data;
@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-public class ReviewDTO {
+public class ReviewResponseDTO {
 
     private Long id;
     private int rating;
